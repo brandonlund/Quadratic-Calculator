@@ -4,4 +4,4 @@
 4. Your answer will then be displayed as x, and as the polynomial factored.
 5. Press **y** then **enter** to use again, or **any other key and enter *or* just enter** to quit the program.
 
-***This program only works with polynomials in standard form up to x² (ax² + bx + c = 0)***
+***This program only works with polynomials in standard form up to x² (ax² + bx + c = 0).***
