@@ -15,17 +15,17 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a: ");
         double a = input.nextDouble();
-        System.out.println("You've entered " + a);
+        System.out.println("You've entered " + a + " for a.\n--------------------------");
         A = a;
 
         System.out.println("Please enter b: ");
         double b = input.nextDouble();
-        System.out.println("You've entered " + b);
+        System.out.println("You've entered " + b + " for b.\n--------------------------");
         B = b;
 
         System.out.println("Please enter c: ");
         double c = input.nextDouble();
-        System.out.println("You've entered " + c);
+        System.out.println("You've entered " + c + " for c.\n--------------------------");
         C = c;
         
         input.close();
@@ -33,7 +33,6 @@ public class Main {
 
     public static void printOut(){
 
-        System.out.println("------------------------------------------------------------");
         System.out.println("The answer is: ");
 
         System.out.println("x = " + solvePos() + ", " + solveNeg());
